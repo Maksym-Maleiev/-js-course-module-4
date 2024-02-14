@@ -20,3 +20,6 @@ function makePizza() {
 
 const result = makePizza();
 const pointer = makePizza;
+
+console.log(result);
+console.log(pointer);
