@@ -25,4 +25,6 @@ makePizza('Royal Grand', function deliverPizza(pizzaName) {
 });
 // Change code below this line
 
-makePizza('Ultracheese');
+makePizza('Ultracheese', function eatPizza(pizzaName) {
+  console.log(`Eating pizza ${pizzaName}`);
+});
