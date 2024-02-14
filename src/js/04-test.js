@@ -50,13 +50,13 @@ processCall('Poly', takeCall, leaveHoloMessage);
 const pizzaPalace = {
   pizzas: ['Ultracheese', 'Smoked', 'Four meats'],
   order(pizzaName, onSuccess, onError) {
-    const [...name] = this.pizzas;
-
-    if (pizzaName !== name) {
-      return onError;
+    if (!this.pizzas.includes(pizzaName)) {
+      return onError(
+        `There is no pizza with a name ${pizzaName} in the assortment.`
+      );
     }
 
-    return onSuccess;
+    return onSuccess(pizzaName);
   },
 };
 // Change code above this line
@@ -72,7 +72,7 @@ function onOrderError(error) {
 }
 
 // Method calls with callbacks
-pizzaPalace.order('Smoked', makePizza, onOrderError);
-pizzaPalace.order('Four meats', makePizza, onOrderError);
-pizzaPalace.order('Big Mike', makePizza, onOrderError);
-pizzaPalace.order('Vienna', makePizza, onOrderError);
+console.log(pizzaPalace.order('Smoked', makePizza, onOrderError));
+console.log(pizzaPalace.order('Four meats', makePizza, onOrderError));
+console.log(pizzaPalace.order('Big Mike', makePizza, onOrderError));
+console.log(pizzaPalace.order('Vienna', makePizza, onOrderError));
