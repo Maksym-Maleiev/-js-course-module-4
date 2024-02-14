@@ -1,3 +1,4 @@
+/*
 function registerGuest(name, callback) {
   console.log(`Реєструємо гостя ${name}.`);
   callback(name);
@@ -12,3 +13,4 @@ registerGuest('Mango', function greet(name) {
 registerGuest('Poly', function notify(name) {
   console.log(` Шановний ${name}, ваш номер буде готовий через 30 хвилин.`);
 });
+*/
