@@ -1,3 +1,4 @@
+/*
 // Колбек-функція
 function greet(name) {
   console.log(`Ласкаво просимо ${name}.`);
@@ -8,3 +9,4 @@ function registerGuest(name, callback) {
   callback(name);
 }
 registerGuest('Mango', greet);
+*/
