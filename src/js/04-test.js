@@ -49,7 +49,15 @@ processCall('Poly', takeCall, leaveHoloMessage);
 
 const pizzaPalace = {
   pizzas: ['Ultracheese', 'Smoked', 'Four meats'],
-  order(pizzaName) {},
+  order(pizzaName, onSuccess, onError) {
+    const [...name] = this.pizzas;
+
+    if (pizzaName !== name) {
+      return onError;
+    }
+
+    return onSuccess;
+  },
 };
 // Change code above this line
 
@@ -64,6 +72,11 @@ function onOrderError(error) {
 }
 
 // Method calls with callbacks
+pizzaPalace.order('Smoked', makePizza, onOrderError);
+pizzaPalace.order('Four meats', makePizza, onOrderError);
+pizzaPalace.order('Big Mike', makePizza, onOrderError);
+pizzaPalace.order('Vienna', makePizza, onOrderError);
+
 pizzaPalace.order('Smoked', makePizza, onOrderError);
 pizzaPalace.order('Four meats', makePizza, onOrderError);
 pizzaPalace.order('Big Mike', makePizza, onOrderError);
