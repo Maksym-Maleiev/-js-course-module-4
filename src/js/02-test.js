@@ -20,6 +20,10 @@ function makePizza(pizzaName) {
 }
 
 // Chande code below this line
-function makeMessage(pizzaName) {
-  return;
+function makeMessage(pizzaName, callback) {
+  return callback(pizzaName);
 }
+
+console.log(makeMessage('Royal Grand', makePizza));
+
+console.log(makeMessage('Ultracheese', deliverPizza));
