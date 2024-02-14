@@ -76,8 +76,3 @@ pizzaPalace.order('Smoked', makePizza, onOrderError);
 pizzaPalace.order('Four meats', makePizza, onOrderError);
 pizzaPalace.order('Big Mike', makePizza, onOrderError);
 pizzaPalace.order('Vienna', makePizza, onOrderError);
-
-pizzaPalace.order('Smoked', makePizza, onOrderError);
-pizzaPalace.order('Four meats', makePizza, onOrderError);
-pizzaPalace.order('Big Mike', makePizza, onOrderError);
-pizzaPalace.order('Vienna', makePizza, onOrderError);
