@@ -18,5 +18,5 @@ function makePizza() {
 }
 // Change code below this line
 
-const result = null;
-const pointer = null;
+const result = makePizza();
+const pointer = makePizza;
