@@ -2,7 +2,7 @@ function filterArray(numbers, value) {
   const filteredNumbers = [];
   // Change code below this line
 
-  numbers.foreach(function (number) {
+  numbers.forEach(function (number) {
     if (number > value) {
       filteredNumbers.push(number);
     }
