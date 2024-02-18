@@ -11,3 +11,5 @@ function filterArray(numbers, value) {
   // Change code above this line
   return filteredNumbers;
 }
+
+console.log();
