@@ -7,6 +7,11 @@ function getCommonElements(firstArray, secondArray) {
   //     commonElements.push(firstArray[i]);
   //   }
   // }
+  firstArray.forEach(function (element) {
+    if (secondArray.includes(element)) {
+      commonElements.push(element);
+    }
+  });
 
   return commonElements;
   // Change code above this line
