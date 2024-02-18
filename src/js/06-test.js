@@ -12,4 +12,4 @@ function filterArray(numbers, value) {
   return filteredNumbers;
 }
 
-console.log();
+console.log(filterArray([1, 2, 3, 4, 5], 3));
