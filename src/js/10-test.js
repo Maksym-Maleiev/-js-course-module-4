@@ -12,9 +12,29 @@ numbers.forEach((number, index) => {
 });
 */
 
-const numbers = [5, 10, 15, 20, 25];
-const logMessage = (number, index) => {
-  console.log(`Індекс ${index}, значення ${number}`);
-};
+function getFirstPosition(values, value) {
+  let index = -1;
 
-numbers.forEach(logMessage);
+  values.forEach((element, inx) => {
+    if (element === value) {
+      index += inx + 1;
+    }
+  });
+
+  return index;
+}
+
+console.log(getFirstPosition(['one', 'two', 'three'], 'three'));
+
+console.log(getFirstPosition([10, 20, 30, 40, 50], 20));
+
+console.log(getFirstPosition([99, 55, 22, 44, 77, 44], 44));
+
+console.log(getFirstPosition([1, 2, 3, 4], 99));
+
+// const numbers = [5, 10, 15, 20, 25];
+// const logMessage = (number, index) => {
+//   console.log(`Індекс ${index}, значення ${number}`);
+// };
+
+// numbers.forEach(logMessage);
