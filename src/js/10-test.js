@@ -28,7 +28,7 @@ console.log(getFirstPosition(['one', 'two', 'three'], 'three'));
 
 console.log(getFirstPosition([10, 20, 30, 40, 50], 20));
 
-console.log(getFirstPosition([99, 55, 22, 44, 77, 44], 44));
+console.log(getFirstPosition([99, 55, 22, 44, 77], 44));
 
 console.log(getFirstPosition([1, 2, 3, 4], 99));
 
