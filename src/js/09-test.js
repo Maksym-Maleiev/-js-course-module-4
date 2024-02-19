@@ -1,7 +1,5 @@
 // Change code below this line
-const calculateTotalPrice = (quantity, pricePerItem) => {
-  return quantity * pricePerItem;
-};
+const calculateTotalPrice = (quantity, pricePerItem) => quantity * pricePerItem;
 // Change code above this line
 
 console.log(calculateTotalPrice(5, 100));
