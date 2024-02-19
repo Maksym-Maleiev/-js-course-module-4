@@ -12,6 +12,7 @@ numbers.forEach((number, index) => {
 });
 */
 
+/*
 function getFirstPosition(values, value) {
   let index = -1;
 
@@ -33,10 +34,13 @@ console.log(getFirstPosition([99, 55, 22, 44, 77], 44));
 console.log(getFirstPosition([1, 2, 3, 4], 99));
 
 console.log(getFirstPosition([], 42));
+*/
 
-// const numbers = [5, 10, 15, 20, 25];
-// const logMessage = (number, index) => {
-//   console.log(`Індекс ${index}, значення ${number}`);
-// };
+/*
+const numbers = [5, 10, 15, 20, 25];
+const logMessage = (number, index) => {
+  console.log(`Індекс ${index}, значення ${number}`);
+};
 
-// numbers.forEach(logMessage);
+numbers.forEach(logMessage);
+*/
