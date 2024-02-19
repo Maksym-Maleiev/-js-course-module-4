@@ -11,7 +11,6 @@ function getFirstPosition(values, value) {
 }
 */
 
-/*
 function getFirstPosition(values, value) {
   for (const el of values) {
     const index = values.indexOf(el);
@@ -22,15 +21,6 @@ function getFirstPosition(values, value) {
   }
 
   return -1;
-}
-*/
-
-function getFirstPosition(values, value) {
-  values.forEach((element, index) => {
-    if (element === value) {
-      return index;
-    }
-  });
 }
 
 console.log(getFirstPosition(['one', 'two', 'three'], 'three'));
