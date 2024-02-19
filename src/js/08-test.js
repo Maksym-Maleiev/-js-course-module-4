@@ -29,6 +29,14 @@ console.log(getFirstPosition(['one', 'two', 'three'], 'three'));
 console.log(getFirstPosition([1, 2, 3, 4], 99));
 */
 
+/*
+const arr = ['one', 'two', 'three'];
+
+arr.forEach((element, index) => {
+  console.log(`${index}: ${element}`);
+});
+*/
+
 // Change code below this line
 
 const calculateTotalPrice = (quantity, pricePerItem) => {
