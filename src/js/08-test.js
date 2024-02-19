@@ -23,8 +23,8 @@ function getFirstPosition(values, value) {
 
   return -1;
 }
+*/
 
 console.log(getFirstPosition(['one', 'two', 'three'], 'three'));
 
 console.log(getFirstPosition([1, 2, 3, 4], 99));
-*/
