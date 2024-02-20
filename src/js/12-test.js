@@ -1,8 +1,8 @@
 // Change code below this line
-function getCommonElements(firstArray, secondArray) {
+const getCommonElements = (firstArray, secondArray) => {
   const commonElements = [];
 
-  firstArray.forEach(function (element) {
+  firstArray.forEach(element => {
     if (secondArray.includes(element)) {
       commonElements.push(element);
     }
@@ -10,7 +10,7 @@ function getCommonElements(firstArray, secondArray) {
 
   // Change code above this line
   return commonElements;
-}
+};
 
 console.log(getCommonElements([1, 2, 3], [2, 4]));
 console.log(getCommonElements([1, 2, 3], [2, 1, 17, 19]));
