@@ -32,6 +32,8 @@ const doubledNumbers = pureMultiply(numbers, 2);
 
 function changeEven(numbers, value) {
   // Change code below this line
+  let newArr = [];
+
   for (let i = 0; i < numbers.length; i += 1) {
     if (numbers[i] % 2 === 0) {
       numbers[i] = numbers[i] + value;
