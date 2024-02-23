@@ -34,15 +34,19 @@ function changeEven(numbers, value) {
   // Change code below this line
   let newArr = [];
 
-  for (let i = 0; i < numbers.length; i += 1) {
-    if (numbers[i] % 2 === 0) {
-      numbers[i] = numbers[i] + value;
-    }
+  // for (let i = 0; i < numbers.length; i += 1) {
+  //   if (numbers[i] % 2 === 0) {
+  //     numbers[i] = numbers[i] + value;
+  //   }
 
-    return newArr;
-  }
-  // Change code above this line
+  numbers.forEach(element => {
+    if (element % 2 === 0) {
+    }
+  });
+
+  return newArr;
 }
+// Change code above this line
 
 console.log(changeEven([1, 2, 3, 4, 5], 10));
 console.log(changeEven([2, 8, 3, 7, 4, 6], 10));
