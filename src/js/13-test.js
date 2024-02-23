@@ -30,26 +30,26 @@ const doubledNumbers = pureMultiply(numbers, 2);
 // [2, 4, 6, 8, 10]
 */
 
-// function changeEven(numbers, value) {
-//   // Change code below this line
-//   let newArr = [];
+function changeEven(numbers, value) {
+  // Change code below this line
+  let newArr = [];
 
-//   numbers.forEach(element => {
-//     if (element % 2 === 0) {
-//       newArr.push((element += value));
-//     } else {
-//       newArr.push(element);
-//     }
-//   });
+  numbers.forEach(element => {
+    if (element % 2 === 0) {
+      newArr.push((element += value));
+    } else {
+      newArr.push(element);
+    }
+  });
 
-//   return newArr;
-// }
-// // Change code above this line
+  return newArr;
+}
+// Change code above this line
 
-// console.log(changeEven([1, 2, 3, 4, 5], 10)); // [1, 12, 3, 14, 5]
-// console.log(changeEven([2, 8, 3, 7, 4, 6], 10)); // [12, 18, 3, 7, 14, 16]
-// console.log(changeEven([17, 24, 68, 31, 42], 100)); // [17, 124, 168, 31, 142]
-// console.log(changeEven([44, 13, 81, 92, 36, 54], 100)); // [144, 13, 81, 192, 136, 154]
+console.log(changeEven([1, 2, 3, 4, 5], 10)); // [1, 12, 3, 14, 5]
+console.log(changeEven([2, 8, 3, 7, 4, 6], 10)); // [12, 18, 3, 7, 14, 16]
+console.log(changeEven([17, 24, 68, 31, 42], 100)); // [17, 124, 168, 31, 142]
+console.log(changeEven([44, 13, 81, 92, 36, 54], 100)); // [144, 13, 81, 192, 136, 154]
 
 /*
 function checkNumber(n) {
