@@ -77,6 +77,6 @@ function checkNumber(n) {
 }
 
 console.log(checkNumber(3)); // [true, false, false]
-checkNumber(10); // [true, true, true]
-checkNumber(0); // [false, true, true]
-checkNumber(-1); // [false, false, false]
+console.log(checkNumber(10)); // [true, true, true]
+console.log(checkNumber(0)); // [false, true, true]
+console.log(checkNumber(-1)); // [false, false, false]
