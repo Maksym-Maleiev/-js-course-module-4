@@ -51,6 +51,7 @@ const doubledNumbers = pureMultiply(numbers, 2);
 // console.log(changeEven([17, 24, 68, 31, 42], 100)); // [17, 124, 168, 31, 142]
 // console.log(changeEven([44, 13, 81, 92, 36, 54], 100)); // [144, 13, 81, 192, 136, 154]
 
+/*
 function checkNumber(n) {
   // write code here
   let arr = [];
@@ -80,3 +81,4 @@ console.log(checkNumber(3)); // [true, false, false]
 console.log(checkNumber(10)); // [true, true, true]
 console.log(checkNumber(0)); // [false, true, true]
 console.log(checkNumber(-1)); // [false, false, false]
+*/
