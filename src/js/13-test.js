@@ -69,3 +69,8 @@ function checkNumber(n) {
 
   return arr;
 }
+
+checkNumber(3); // [true, false, false]
+checkNumber(10); // [true, true, true]
+checkNumber(0); // [false, true, true]
+checkNumber(-1); // [false, false, false]
