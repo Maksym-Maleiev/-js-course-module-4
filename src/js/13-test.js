@@ -1,4 +1,4 @@
-//! dirty function
+//! DIRTY FUNCTION
 /*
 const dirtyMultiply = (array, value) => {
   for (let i = 0; i < array.length; i += 1) {
@@ -11,4 +11,4 @@ dirtyMultiply(numbers, 2);
 // [2, 4, 6, 8, 10]
 */
 
-// * Pure function
+// * PURE FUNCTION
