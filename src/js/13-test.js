@@ -12,7 +12,7 @@ dirtyMultiply(numbers, 2);
 */
 
 // * PURE FUNCTION
-
+/*
 const pureMultiply = (array, value) => {
   const newArray = [];
 
@@ -28,3 +28,4 @@ const doubledNumbers = pureMultiply(numbers, 2);
 // [1, 2, 3, 4, 5]
 // Функція повернула новий масив із зміненими даними console.log(doubledNumbers);
 // [2, 4, 6, 8, 10]
+*/
