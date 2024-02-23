@@ -57,9 +57,17 @@ function checkNumber(n) {
 
   if (n > 0) {
     arr.push(true);
-  } else if (n % 2 === 0) {
+  } else {
+    arr.push(false);
+  }
+
+  if (n % 2 === 0) {
     arr.push(true);
-  } else if (n % 10 === 0) {
+  } else {
+    arr.push(false);
+  }
+
+  if (n % 10 === 0) {
     arr.push(true);
   } else {
     arr.push(false);
