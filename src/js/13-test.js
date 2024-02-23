@@ -61,6 +61,8 @@ function checkNumber(n) {
     arr.push(true);
   } else if (n % 10 === 0) {
     arr.push(true);
+  } else {
+    arr.push(false);
   }
 
   return arr;
