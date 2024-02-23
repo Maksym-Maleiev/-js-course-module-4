@@ -4,4 +4,6 @@ const dirtyMultiply = (array, value) => {
   }
 };
 const numbers = [1, 2, 3, 4, 5];
-dirtyMultiply(numbers, 2); // Відбулася мутація вихідних даних – масиву numbers console.log(numbers); // [2, 4, 6, 8, 10]
+dirtyMultiply(numbers, 2);
+// Відбулася мутація вихідних даних – масиву numbers console.log(numbers);
+// [2, 4, 6, 8, 10]
