@@ -29,3 +29,13 @@ const doubledNumbers = pureMultiply(numbers, 2);
 // Функція повернула новий масив із зміненими даними console.log(doubledNumbers);
 // [2, 4, 6, 8, 10]
 */
+
+function changeEven(numbers, value) {
+  // Change code below this line
+  for (let i = 0; i < numbers.length; i += 1) {
+    if (numbers[i] % 2 === 0) {
+      numbers[i] = numbers[i] + value;
+    }
+  }
+  // Change code above this line
+}
