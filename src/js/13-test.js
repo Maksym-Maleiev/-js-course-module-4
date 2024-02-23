@@ -43,3 +43,8 @@ function changeEven(numbers, value) {
   }
   // Change code above this line
 }
+
+console.log(changeEven([1, 2, 3, 4, 5], 10));
+console.log();
+console.log();
+console.log();
