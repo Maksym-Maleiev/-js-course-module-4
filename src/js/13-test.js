@@ -37,6 +37,8 @@ function changeEven(numbers, value) {
   numbers.forEach(element => {
     if (element % 2 === 0) {
       newArr.push((element += value));
+    } else {
+      newArr.push(element);
     }
   });
 
