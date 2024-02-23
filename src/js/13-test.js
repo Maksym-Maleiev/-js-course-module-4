@@ -34,13 +34,9 @@ function changeEven(numbers, value) {
   // Change code below this line
   let newArr = [];
 
-  // for (let i = 0; i < numbers.length; i += 1) {
-  //   if (numbers[i] % 2 === 0) {
-  //     numbers[i] = numbers[i] + value;
-  //   }
-
   numbers.forEach(element => {
     if (element % 2 === 0) {
+      newArr.push((element += value));
     }
   });
 
