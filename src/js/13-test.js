@@ -57,20 +57,16 @@ function checkNumber(n) {
 
   if (n > 0) {
     arr.push(true);
-  }
-
-  if (n % 2 === 0) {
+  } else if (n % 2 === 0) {
     arr.push(true);
-  }
-
-  if (n % 10 === 0) {
+  } else if (n % 10 === 0) {
     arr.push(true);
   }
 
   return arr;
 }
 
-checkNumber(3); // [true, false, false]
+console.log(checkNumber(3)); // [true, false, false]
 checkNumber(10); // [true, true, true]
 checkNumber(0); // [false, true, true]
 checkNumber(-1); // [false, false, false]
