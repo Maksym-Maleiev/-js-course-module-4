@@ -45,6 +45,6 @@ function changeEven(numbers, value) {
 }
 
 console.log(changeEven([1, 2, 3, 4, 5], 10));
-console.log();
+console.log(changeEven([2, 8, 3, 7, 4, 6], 10));
 console.log();
 console.log();
