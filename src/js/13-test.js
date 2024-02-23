@@ -10,3 +10,5 @@ dirtyMultiply(numbers, 2);
 // Відбулася мутація вихідних даних – масиву numbers console.log(numbers);
 // [2, 4, 6, 8, 10]
 */
+
+// * Pure function
