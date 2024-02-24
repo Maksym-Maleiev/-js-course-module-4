@@ -2,7 +2,14 @@ function createArray(N) {
   // write code here
   let arr = [];
 
-  for (let i = 1; i <= N; i += 1) {}
+  for (let i = 1; i <= N; i += 1) {
+    const number = i;
+    console.log(number);
+
+    if (i > 0) {
+      arr.push(i);
+    }
+  }
 
   return arr;
 }
