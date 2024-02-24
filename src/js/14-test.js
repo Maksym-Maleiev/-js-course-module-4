@@ -16,3 +16,6 @@ console.log(planets);
 const planets = ['Earth', 'Mars', 'Venus', 'Jupiter'];
 // Change code below this line
 const planetsLengths = planets;
+
+console.log();
+console.log();
