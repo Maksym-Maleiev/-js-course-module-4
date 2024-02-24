@@ -2,13 +2,10 @@ function createArray(N) {
   // write code here
   let arr = [];
 
-  for (let i = 1; i <= N; i += 1) {
-    const n = N[i];
-    if (N > 0) {
-      arr.push(n);
-    } else {
-      arr = [];
-    }
+  if (N > 0) {
+    arr.push(N);
+  } else {
+    arr = [];
   }
 
   return arr;
