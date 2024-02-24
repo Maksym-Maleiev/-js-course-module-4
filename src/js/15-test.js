@@ -2,7 +2,11 @@ function createArray(N) {
   // write code here
   let arr = [];
 
-if(){}
+  if (N > 0) {
+    arr.push(N);
+  } else {
+    arr = [];
+  }
 
   return arr;
 }
