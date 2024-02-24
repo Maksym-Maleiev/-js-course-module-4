@@ -1,5 +1,8 @@
 function createArray(N) {
   // write code here
+  let arr = [];
+
+  return arr;
 }
 
 console.log(createArray(1));
