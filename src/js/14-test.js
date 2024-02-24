@@ -7,5 +7,6 @@ console.log(planetsInUpperCase);
 const planetsInLowerCase = planets.map(planet => planet.toLowerCase());
 console.log(planetsInLowerCase);
 // ["earth", "mars", "venus", "jupiter"]
-// Оригінальний масив не змінився console.log(planets);
+// Оригінальний масив не змінився
+console.log(planets);
 // ["Earth", "Mars", "Venus", "Jupiter"]
