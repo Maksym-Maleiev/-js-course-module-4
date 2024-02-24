@@ -2,6 +2,8 @@ function createArray(N) {
   // write code here
   let arr = [];
 
+if(){}
+
   return arr;
 }
 
