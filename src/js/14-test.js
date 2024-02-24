@@ -15,6 +15,6 @@ console.log(planets);
 
 const planets = ['Earth', 'Mars', 'Venus', 'Jupiter'];
 // Change code below this line
-const planetsLengths = planets;
+const planetsLengths = planets.map(element => element.length);
 
 console.log(planetsLengths);
