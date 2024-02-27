@@ -53,6 +53,6 @@ const books = [
 ];
 // Change code below this line
 
-const titles = books;
+const titles = books.map(book => book.title);
 
 console.log(titles);
