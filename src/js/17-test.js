@@ -2,7 +2,7 @@
 const getUserNames = users => {
   let names = [];
 
-  users.flatMap(user => names.push(user.name));
+  users.map(user => names.push(user.name));
 
   return names;
 };
