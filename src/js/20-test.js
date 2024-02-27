@@ -6,3 +6,9 @@ const students = [
 
 const allCourses = students.flatMap(student => student.courses);
 // ["mathematics", "physics", "science", "mathematics", "physics", "biology"];
+
+const uniqueCourses = allCourses.filter(
+  (course, index, array) => array.indexOf(course) === index
+);
+
+console.log(uniqueCourses);
