@@ -2,7 +2,11 @@
 const getUsersWithEyeColor = (users, color) => {
   let newArr = [];
 
-  users.filter(user => );
+  users.filter(user => {
+    if (user.eyeColor === color && color === 'blue') {
+      newArr.push(user);
+    }
+  });
 
   return newArr;
 };
