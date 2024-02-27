@@ -1,6 +1,10 @@
 // Change code below this line
 const getUsersWithEyeColor = (users, color) => {
   let users = [];
+
+  users.filter(user => users.push(user.eyeColor === color));
+
+  return users;
 };
 // Change code above this line
 
@@ -69,6 +73,5 @@ console.log(
       balance: 2764,
       gender: 'female',
     },
-  ]),
-  'blue'
+  ])
 );
