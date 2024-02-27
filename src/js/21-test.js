@@ -51,3 +51,6 @@ const AUTHOR = 'Bernard Cornwell';
 
 const topRatedBooks = books.filter(book => book.rating >= MIN_RATING);
 const booksByAuthor = books.filter(book => book.author === AUTHOR);
+
+console.log(topRatedBooks);
+console.log(booksByAuthor);
