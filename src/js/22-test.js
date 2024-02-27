@@ -1,14 +1,5 @@
 // Change code below this line
-const getUsersWithEyeColor = (users, color) => {
-  let arr = [];
-
-  users
-    .filter(user => user.eyeColor === color)
-    .map(user => arr.push(user.eyeColor === color));
-
-  return arr;
-};
-
+const getUsersWithEyeColor = (users, color) => {};
 // Change code above this line
 
 console.log(
