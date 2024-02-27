@@ -70,3 +70,6 @@ const getUsersWithEyeColor = (users, color) =>
 // Change code above this line
 
 console.log(getUsersWithEyeColor(users, 'blue'));
+console.log(getUsersWithEyeColor(users, 'green'));
+console.log(getUsersWithEyeColor(users, 'brown'));
+console.log(getUsersWithEyeColor(users, ''));
