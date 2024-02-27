@@ -70,3 +70,7 @@ const users = [
     age: 39,
   },
 ];
+
+// Change code below this line
+const getUsersWithAge = (users, minAge, maxAge) => {};
+// Change code above this line
