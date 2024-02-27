@@ -18,6 +18,7 @@ const getUsersWithEyeColor = (users, color) => {
 
   return newArr;
 };
+
 // Change code above this line
 
 console.log(
