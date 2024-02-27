@@ -1,5 +1,11 @@
 // Change code below this line
-const getUserEmails = users => {};
+const getUserEmails = users => {
+  let emails = [];
+
+  users.map(user => emails.push(user.email));
+
+  return emails;
+};
 // Change code above this line
 
 console.log(
