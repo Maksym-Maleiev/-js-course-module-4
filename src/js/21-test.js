@@ -1,3 +1,4 @@
+/*
 const LOW_SCORE = 50;
 const HIGH_SCORE = 80;
 const students = [
@@ -22,3 +23,4 @@ const average = students.filter(
 );
 console.log(average);
 // Массив объектов с именами Poly и Houston
+*/
