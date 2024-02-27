@@ -29,4 +29,6 @@ const books = [
 ];
 // Change code below this line
 
-const genres = books;
+const genres = books.flatMap(book => book.genres);
+
+console.log(genres);
