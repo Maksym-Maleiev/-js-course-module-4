@@ -2,7 +2,7 @@
 const getUsersWithEyeColor = (users, color) => {
   let newArr = [];
 
-  users.filter(user => );
+  users.filter(user => {});
 
   return newArr;
 };
