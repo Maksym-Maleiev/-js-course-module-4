@@ -1,5 +1,5 @@
 // Change code below this line
-const getUserNames = users => users.name;
+const getUserNames = users => {};
 
 console.log(
   getUserNames([
