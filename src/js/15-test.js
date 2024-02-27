@@ -54,3 +54,5 @@ const books = [
 // Change code below this line
 
 const titles = books;
+
+console.log(titles);
