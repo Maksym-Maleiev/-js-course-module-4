@@ -2,7 +2,17 @@
 const getUsersWithEyeColor = (users, color) => {
   let newArr = [];
 
-  users.filter(user => {});
+  const blueEyes = users.filter(user => user.eyeColor === 'blue');
+  console.log(blueEyes);
+
+  const greenEyes = users.filter(user => user.eyeColor === 'green');
+  console.log(greenEyes);
+
+  const brownEyes = users.filter(user => user.eyeColor === 'brown');
+  console.log(brownEyes);
+
+  const noColor = users.filter(user => user.eyeColor === '');
+  console.log(noColor);
 
   return newArr;
 };
