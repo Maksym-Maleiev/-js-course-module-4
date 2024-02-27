@@ -49,5 +49,5 @@ const MIN_RATING = 8;
 const AUTHOR = 'Bernard Cornwell';
 // Change code below this line
 
-const topRatedBooks = books;
-const booksByAuthor = books;
+const topRatedBooks = books.filter(book => book.rating >= MIN_RATING);
+const booksByAuthor = books.filter(book => book.author === AUTHOR);
