@@ -1,3 +1,4 @@
+/*
 const students = [
   { name: 'Mango', courses: ['mathematics', 'physics'] },
   { name: 'Poly', courses: ['science', 'mathematics'] },
@@ -12,3 +13,4 @@ const uniqueCourses = allCourses.filter(
 );
 
 console.log(uniqueCourses);
+*/
