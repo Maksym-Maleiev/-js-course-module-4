@@ -33,5 +33,10 @@ const books = [
   },
 ];
 // Change code below this line
-const allGenres = books;
-const uniqueGenres = allGenres;
+const allGenres = books.flatMap(book => book.genres);
+const uniqueGenres = allGenres.filter(
+  (genre, index, array) => array.indexOf(genre) === index
+);
+
+console.log(allGenres);
+console.log(uniqueGenres);
