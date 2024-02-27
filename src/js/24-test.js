@@ -72,9 +72,10 @@ const users = [
 ];
 
 // Change code below this line
-const getUsersWithFriend = (users, friendName) => {};
+const getUsersWithFriend = (users, friendName) =>
+  users.filter(user => user.friends.includes(friendName));
 // Change code above this line
 
-console.log(getUsersWithFriend());
-console.log(getUsersWithFriend());
-console.log(getUsersWithFriend());
+console.log(getUsersWithFriend(users, 'Briana Decker'));
+console.log(getUsersWithFriend(users, 'Goldie Gentry'));
+console.log(getUsersWithFriend(users, 'Adrian Cross'));
