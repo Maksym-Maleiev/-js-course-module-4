@@ -1,5 +1,11 @@
 // Change code below this line
-const getUserNames = users => {};
+const getUserNames = users => {
+  let names = [];
+
+  users.flatMap(user => names.push(user.name));
+
+  return names;
+};
 
 console.log(
   getUserNames([
