@@ -1,5 +1,7 @@
 // Change code below this line
-const getUsersWithEyeColor = (users, color) => {};
+const getUsersWithEyeColor = (users, color) => {
+  let users = [];
+};
 // Change code above this line
 
 console.log(
