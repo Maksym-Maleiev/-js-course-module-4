@@ -18,5 +18,5 @@ console.log(values); // [51, -3, 27, 21, -68, 42, -37]
 const numbers = [17, 24, 82, 61, 36, 18, 47, 52, 73];
 // Change code below this line
 
-const evenNumbers = numbers;
-const oddNumbers = numbers;
+const evenNumbers = numbers.filter(number => number % 2 === 0);
+const oddNumbers = numbers.filter(number => number % 2 !== 0);
