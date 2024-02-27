@@ -70,3 +70,11 @@ const users = [
     age: 39,
   },
 ];
+
+// Change code below this line
+const getUsersWithFriend = (users, friendName) => {};
+// Change code above this line
+
+console.log(getUsersWithFriend());
+console.log(getUsersWithFriend());
+console.log(getUsersWithFriend());
