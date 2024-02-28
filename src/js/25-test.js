@@ -76,7 +76,6 @@ const getFriends = users => {
   let uniqFriends = [];
 
   const allFriends = users.flatMap(user => user.friends);
-  console.log(allFriends);
 
   const uniqNameFriends = allFriends.filter(
     (name, index, array) => array.indexOf(name) === index
