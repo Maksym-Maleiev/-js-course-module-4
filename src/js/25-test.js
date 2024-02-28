@@ -73,9 +73,18 @@ const users = [
 
 // Change code below this line
 const getFriends = users => {
-  let friends = [];
+  let uniqFriends = [];
 
-  return friends;
+  const allFriends = users.flatMap(user => user.friends);
+  console.log(allFriends);
+
+  const uniqNameFriends = allFriends.filter(
+    (name, index, array) => array.indexOf(name) === index
+  );
+
+  uniqFriends.push(uniqNameFriends);
+
+  return uniqFriends;
 };
 // Change code above this line
 
