@@ -69,11 +69,12 @@ const users = [
 ];
 
 // Change code below this line
-const getUserWithEmail = (users, email) => {};
+const getUserWithEmail = (users, email) =>
+  users.find(user => user.email === email);
 // Change code above this line
 
-console.log(getUserWithEmail(users), 'shereeanthony@kog.com');
+console.log(getUserWithEmail(users, 'shereeanthony@kog.com'));
 
-console.log(getUserWithEmail(users), 'elmahead@omatom.com');
+console.log(getUserWithEmail(users, 'elmahead@omatom.com'));
 
-console.log(getUserWithEmail(users), 'blackburndotson@furnigeer.com');
+console.log(getUserWithEmail(users, 'blackburndotson@furnigeer.com'));
