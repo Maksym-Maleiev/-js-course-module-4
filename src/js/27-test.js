@@ -72,7 +72,7 @@ const users = [
 ];
 
 // Change code below this line
-const getInactiveUsers = users => {};
+const getInactiveUsers = users => users.filter(user => user.isActive === false);
 // Change code above this line
 
 console.log(getInactiveUsers(users));
