@@ -74,3 +74,5 @@ const users = [
 // Change code below this line
 const getFriends = users => {};
 // Change code above this line
+
+console.log(getFriends(users));
