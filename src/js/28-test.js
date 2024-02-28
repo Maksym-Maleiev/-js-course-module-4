@@ -47,3 +47,6 @@ const AUTHOR = 'Robert Sheckley';
 
 const bookWithTitle = books.find(book => book.title === BOOK_TITLE);
 const bookByAuthor = books.find(book => book.author === AUTHOR);
+
+console.log(bookWithTitle);
+console.log(bookByAuthor);
