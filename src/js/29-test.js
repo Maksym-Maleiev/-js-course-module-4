@@ -1,3 +1,7 @@
+/*
+ * Exercise
+ */
+
 const users = [
   {
     name: 'Moore Hensley',
