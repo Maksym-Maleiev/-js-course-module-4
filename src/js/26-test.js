@@ -74,3 +74,5 @@ const users = [
 // Change code below this line
 const getActiveUsers = users => {};
 // Change code above this line
+
+console.log(getActiveUsers(users));
