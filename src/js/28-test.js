@@ -10,11 +10,11 @@ const colorPickerOptions = [
   { label: 'indigo', color: '#3F51B5' },
 ];
 
-colorPickerOptions.find(option => option.label === 'blue');
+console.log(colorPickerOptions.find(option => option.label === 'blue'));
 // { label: "blue", color: "#2196F3" }
 
-colorPickerOptions.find(option => option.label === 'pink');
+console.log(colorPickerOptions.find(option => option.label === 'pink'));
 // { label: "pink", color: "#E91E63" }
 
-colorPickerOptions.find(option => option.label === 'white');
+console.log(colorPickerOptions.find(option => option.label === 'white'));
 // undefined
