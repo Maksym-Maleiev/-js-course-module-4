@@ -63,3 +63,7 @@ const users = [
     gender: 'female',
   },
 ];
+
+// Change code below this line
+const getUserWithEmail = (users, email) => {};
+// Change code above this line
