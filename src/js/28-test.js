@@ -19,6 +19,10 @@ console.log(colorPickerOptions.find(option => option.label === 'pink'));
 console.log(colorPickerOptions.find(option => option.label === 'white'));
 // undefined
 
+/*
+ * Exercise
+ */
+
 const books = [
   {
     title: 'The Last Kingdom',
