@@ -70,3 +70,7 @@ const users = [
     age: 39,
   },
 ];
+
+// Change code below this line
+const getInactiveUsers = users => {};
+// Change code above this line
