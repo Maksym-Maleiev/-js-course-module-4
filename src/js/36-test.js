@@ -69,7 +69,8 @@ const users = [
 ];
 
 // Change code below this line
-const calculateTotalBalance = users => {};
+const calculateTotalBalance = users =>
+  users.reduce((totalBalance, user) => totalBalance + user.balance, 0);
 // Change code above this line
 
 console.log(calculateTotalBalance(users));
