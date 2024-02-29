@@ -23,10 +23,10 @@ const eachElementInFirstIsEven = firstArray.every(number => number % 2 === 0);
 const eachElementInFirstIsOdd = firstArray.every(number => number % 2 !== 0);
 
 const eachElementInSecondIsEven = secondArray.every(number => number % 2 === 0);
-const eachElementInSecondIsOdd = secondArray;
+const eachElementInSecondIsOdd = secondArray.every(number => number % 2 !== 0);
 
 const eachElementInThirdIsEven = thirdArray.every(number => number % 2 === 0);
-const eachElementInThirdIsOdd = thirdArray;
+const eachElementInThirdIsOdd = thirdArray.every(number => number % 2 !== 0);
 
 console.log(eachElementInFirstIsEven);
 console.log(eachElementInFirstIsOdd);
