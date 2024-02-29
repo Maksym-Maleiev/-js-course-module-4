@@ -71,3 +71,5 @@ const users = [
 // Change code below this line
 const isEveryUserActive = users => {};
 // Change code above this line
+
+console.log(isEveryUserActive(users));
