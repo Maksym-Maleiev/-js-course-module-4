@@ -21,7 +21,9 @@ const players = {
 const playtimes = Object.values(players); // [1270, 468, 710, 244]
 // Change code below this line
 
-const totalPlayTime = playtimes;
+const totalPlayTime = playtimes.reduce((total, score) => {
+  return total + score;
+}, 0);
 
 // Change code above this line
 const averagePlayTime = totalPlayTime / playtimes.length;
