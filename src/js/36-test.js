@@ -67,3 +67,9 @@ const users = [
     gender: 'female',
   },
 ];
+
+// Change code below this line
+const calculateTotalBalance = users => {};
+// Change code above this line
+
+console.log(calculateTotalBalance(users));
