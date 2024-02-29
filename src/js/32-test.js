@@ -35,3 +35,10 @@ const anyElementInSecondIsOdd = secondArray.some(number => number % 2 !== 0);
 
 const anyElementInThirdIsEven = thirdArray.some(number => number % 2 === 0);
 const anyElementInThirdIsOdd = thirdArray.some(number => number % 2 !== 0);
+
+console.log(anyElementInFirstIsEven);
+console.log(anyElementInFirstIsOdd);
+console.log(anyElementInSecondIsEven);
+console.log(anyElementInSecondIsOdd);
+console.log(anyElementInThirdIsEven);
+console.log(anyElementInThirdIsOdd);
