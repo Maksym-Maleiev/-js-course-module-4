@@ -67,3 +67,7 @@ const users = [
     gender: 'female',
   },
 ];
+
+// Change code below this line
+const isEveryUserActive = users => {};
+// Change code above this line
