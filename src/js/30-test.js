@@ -20,7 +20,7 @@ const thirdArray = [17, 26, 94, 61, 36, 23, 18];
 // Change code below this line
 
 const eachElementInFirstIsEven = firstArray.every(number => number % 2 === 0);
-const eachElementInFirstIsOdd = firstArray;
+const eachElementInFirstIsOdd = firstArray.every(number => number % 2 !== 0);
 
 const eachElementInSecondIsEven = secondArray.every(number => number % 2 === 0);
 const eachElementInSecondIsOdd = secondArray;
