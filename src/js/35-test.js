@@ -31,5 +31,9 @@ const players = [
   { name: 'Kiwi', playtime: 241, gamesPlayed: 1 },
 ];
 // Change code below this line
+const totalAveragePlaytimePerGame = players.reduce(
+  (totalTime, player) => totalTime + player.playtime / player.gamesPlayed,
+  0
+);
 
-const totalAveragePlaytimePerGame = players;
+console.log(totalAveragePlaytimePerGame);
