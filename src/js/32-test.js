@@ -28,10 +28,10 @@ const thirdArray = [17, 26, 94, 61, 36, 23, 18];
 // Change below this line
 
 const anyElementInFirstIsEven = firstArray.some(number => number % 2 === 0);
-const anyElementInFirstIsOdd = firstArray.some();
+const anyElementInFirstIsOdd = firstArray.some(number => number % 2 !== 0);
 
-const anyElementInSecondIsEven = secondArray.some();
-const anyElementInSecondIsOdd = secondArray.some();
+const anyElementInSecondIsEven = secondArray.some(number => number % 2 === 0);
+const anyElementInSecondIsOdd = secondArray.some(number => number % 2 !== 0);
 
-const anyElementInThirdIsEven = thirdArray.some();
-const anyElementInThirdIsOdd = thirdArray.some();
+const anyElementInThirdIsEven = thirdArray.some(number => number % 2 === 0);
+const anyElementInThirdIsOdd = thirdArray.some(number => number % 2 !== 0);
