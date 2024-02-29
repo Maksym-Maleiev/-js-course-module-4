@@ -3,17 +3,17 @@
  */
 
 // Чи є хоча б один елемент більше або дорівнює нулю? - Так
-[1, 2, 3, 4, 5].some(value => value >= 0);
+console.log([1, 2, 3, 4, 5].some(value => value >= 0));
 // true
 
 // Чи є хоча б один елемент більше або дорівнює нулю? - так
-[-7, -20, 3, -10, -14].some(value => value >= 0);
+console.log([-7, -20, 3, -10, -14].some(value => value >= 0));
 // true
 
 // Чи є хоча б один елемент менше нуля? - Ні
-[1, 2, 3, 4, 5].some(value => value < 0);
+console.log([1, 2, 3, 4, 5].some(value => value < 0));
 // false
 
 // Чи є хоча б один елемент менше нуля? - Так
-[1, 2, 3, -10, 4, 5].some(value => value < 0);
+console.log([1, 2, 3, -10, 4, 5].some(value => value < 0));
 // true
