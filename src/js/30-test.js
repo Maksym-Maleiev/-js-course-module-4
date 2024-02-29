@@ -9,3 +9,7 @@ console.log([1, 2, 3, 4, 5].every(value => value >= 0));
 // Усі елементи більше чи рівні нулю? - ні
 console.log([1, 2, 3, -10, 4, 5].every(value => value >= 0));
 // false
+
+/*
+ * Exercise
+ */
