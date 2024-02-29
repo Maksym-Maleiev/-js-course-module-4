@@ -16,3 +16,20 @@ const totalScore = students.reduce((total, student) => {
 }, 0);
 
 const averageScore = totalScore / students.length;
+
+console.log(totalScore);
+console.log(averageScore);
+
+/*
+ * Exercise
+ */
+
+const players = [
+  { name: 'Mango', playtime: 1270, gamesPlayed: 4 },
+  { name: 'Poly', playtime: 469, gamesPlayed: 2 },
+  { name: 'Ajax', playtime: 690, gamesPlayed: 3 },
+  { name: 'Kiwi', playtime: 241, gamesPlayed: 1 },
+];
+// Change code below this line
+
+const totalAveragePlaytimePerGame = players;
