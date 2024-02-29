@@ -18,12 +18,14 @@ const players = {
   ajax: 710,
   kiwi: 244,
 };
-const playtimes = Object.values(players); // [1270, 468, 710, 244]
+const playtimes = Object.values(players);
+// [1270, 468, 710, 244]
 // Change code below this line
 
-const totalPlayTime = playtimes.reduce((total, score) => {
-  return total + score;
-}, 0);
+const totalPlayTime = playtimes.reduce((total, score) => total + score, 0);
 
 // Change code above this line
 const averagePlayTime = totalPlayTime / playtimes.length;
+
+console.log(totalPlayTime);
+console.log(averagePlayTime);
