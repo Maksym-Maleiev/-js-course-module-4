@@ -27,3 +27,10 @@ const eachElementInSecondIsOdd = secondArray;
 
 const eachElementInThirdIsEven = thirdArray;
 const eachElementInThirdIsOdd = thirdArray;
+
+console.log(eachElementInFirstIsEven);
+console.log(eachElementInFirstIsOdd);
+console.log(eachElementInSecondIsEven);
+console.log(eachElementInSecondIsOdd);
+console.log(eachElementInThirdIsEven);
+console.log(eachElementInThirdIsOdd);
