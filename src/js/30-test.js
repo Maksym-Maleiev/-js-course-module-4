@@ -22,10 +22,10 @@ const thirdArray = [17, 26, 94, 61, 36, 23, 18];
 const eachElementInFirstIsEven = firstArray.every(number => number % 2 === 0);
 const eachElementInFirstIsOdd = firstArray;
 
-const eachElementInSecondIsEven = secondArray;
+const eachElementInSecondIsEven = secondArray.every(number => number % 2 === 0);
 const eachElementInSecondIsOdd = secondArray;
 
-const eachElementInThirdIsEven = thirdArray;
+const eachElementInThirdIsEven = thirdArray.every(number => number % 2 === 0);
 const eachElementInThirdIsOdd = thirdArray;
 
 console.log(eachElementInFirstIsEven);
