@@ -69,7 +69,8 @@ const users = [
 ];
 
 // Change code below this line
-const getTotalFriendCount = users => {};
+const getTotalFriendCount = users =>
+  users.reduce((totalFriends, user) => totalFriends + user.friends, 0);
 // Change code above this line
 
 console.log(getTotalFriendCount(users));
