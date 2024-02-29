@@ -70,7 +70,7 @@ const users = [
 
 // Change code below this line
 const getTotalFriendCount = users =>
-  users.reduce((totalFriends, user) => totalFriends + user.friends, 0);
+  users.reduce((totalCount, user) => totalCount + user.friends.length, 0);
 // Change code above this line
 
 console.log(getTotalFriendCount(users));
