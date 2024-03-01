@@ -19,6 +19,6 @@ console.log(descendingScores);
 const releaseDates = [2016, 1967, 2008, 1984, 1973, 2012, 1997];
 // Change code below this line
 
-const ascendingReleaseDates = releaseDates;
+const ascendingReleaseDates = [...releaseDates];
 
 const descendingReleaseDates = releaseDates;
