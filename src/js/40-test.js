@@ -20,3 +20,20 @@ console.log(inAlphabetOrder);
 const inReversedOrder = [...students].sort((a, b) => b.localeCompare(a));
 console.log(inReversedOrder);
 // [ "Solomon", "Kai", "Jacob", "Ganymede", "Artemis", "Adrian" ]
+
+/*
+ * Exercise
+ */
+
+const authors = [
+  'Tanith Lee',
+  'Bernard Cornwell',
+  'Robert Sheckley',
+  'Fyodor Dostoevsky',
+  'Howard Lovecraft',
+];
+// Change code below this line
+
+const authorsInAlphabetOrder = authors;
+
+const authorsInReversedOrder = authors;
