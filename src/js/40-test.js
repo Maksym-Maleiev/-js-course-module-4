@@ -34,6 +34,9 @@ const authors = [
 ];
 // Change code below this line
 
-const authorsInAlphabetOrder = authors;
+const authorsInAlphabetOrder = [...authors].sort((a, b) => a.localeCompare(b));
 
-const authorsInReversedOrder = authors;
+const authorsInReversedOrder = [...authors].sort((a, b) => b.localeCompare(a));
+
+console.log(authorsInAlphabetOrder);
+console.log(authorsInReversedOrder);
