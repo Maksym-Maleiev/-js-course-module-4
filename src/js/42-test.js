@@ -67,3 +67,7 @@ const users = [
     gender: 'female',
   },
 ];
+
+// Change code below this line
+const sortByAscendingBalance = users => {};
+// Change code above this line
