@@ -74,7 +74,11 @@ const users = [
 ];
 
 // Change code below this line
-const getTotalBalanceByGender = (users, gender) => {};
+const getTotalBalanceByGender = (users, gender) =>
+  [...users]
+    .filter(user => user.gender === gender)
+    .map(user => user.balance)
+    .reduce((total, balance) => total + balance, 0);
 // Change code above this line
 
 console.log(getTotalBalanceByGender(users, 'male'));
