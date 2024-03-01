@@ -12,9 +12,11 @@ const students = [
 const inAscendingScoreOrder = [...students].sort(
   (firstStudent, secondStudent) => firstStudent.score - secondStudent.score
 );
+
 const inDescendingScoreOrder = [...students].sort(
   (firstStudent, secondStudent) => secondStudent.score - firstStudent.score
 );
+
 const inAlphabeticalOrder = [...students].sort((firstStudent, secondStudent) =>
   firstStudent.name.localeCompare(secondStudent.name)
 );
