@@ -28,3 +28,7 @@ console.log(scor);
 // [61, 19, 74, 35, 92, 56]
 console.log(ascendingScor);
 // [19, 35, 56, 61, 74, 92]
+
+/*
+ * Exercise
+ */
