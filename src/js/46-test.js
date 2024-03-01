@@ -74,7 +74,13 @@ const users = [
 ];
 
 // Change code below this line
-const getNamesSortedByFriendCount = users => {};
+const getNamesSortedByFriendCount = users =>
+  [...users]
+    .sort(
+      (firstUser, secondUser) =>
+        firstUser.friends.length - secondUser.friends.length
+    )
+    .map(user => user.name);
 // Change code above this line
 
 console.log(getNamesSortedByFriendCount(users));
