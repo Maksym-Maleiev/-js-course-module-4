@@ -45,3 +45,6 @@ const authors = [
 const ascendingReleaseDates = [...releaseDates].sort();
 
 const alphabeticalAuthors = [...authors].sort();
+
+console.log(ascendingReleaseDates);
+console.log(alphabeticalAuthors);
