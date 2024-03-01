@@ -71,3 +71,5 @@ const users = [
 // Change code below this line
 const sortByAscendingBalance = users => {};
 // Change code above this line
+
+console.log(sortByAscendingBalance(users));
