@@ -12,11 +12,11 @@ const students = [
 // const sortedByAscendingScore = [...students].sort((a, b) => a.score - b.score);
 // const names = sortedByAscendingScore.map(student => student.name);
 
-const names = [...students]
+const name = [...students]
   .sort((a, b) => a.score - b.score)
   .map(student => student.name);
 
-console.log(names);
+console.log(name);
 // ["Ajax", "Poly", "Mango", "Kiwi"]
 
 const uniqueSortedCourses = students
@@ -56,4 +56,10 @@ const books = [
 const MIN_BOOK_RATING = 8;
 // Change code below this line
 
-const names = books;
+const names = books
+  .filter(book => book.rating > MIN_BOOK_RATING)
+  .sort((firstAuthor, secondAuthor) =>
+    firstAuthor.author.localeCompare(secondAuthor.author)
+  );
+
+console.log(names);
