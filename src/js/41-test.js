@@ -57,3 +57,8 @@ const sortedByReversedAuthorName = books;
 const sortedByAscendingRating = books;
 
 const sortedByDescentingRating = books;
+
+console.log(sortedByAuthorName);
+console.log(sortedByReversedAuthorName);
+console.log(sortedByAscendingRating);
+console.log(sortedByDescentingRating);
