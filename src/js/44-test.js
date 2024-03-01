@@ -71,7 +71,7 @@ const users = [
 // Change code below this line
 const sortByName = users =>
   [...users].sort((firstUser, secondUser) =>
-    firstUser.name.localCompare(secondUser.name)
+    firstUser.name.localeCompare(secondUser.name)
   );
 // Change code above this line
 
