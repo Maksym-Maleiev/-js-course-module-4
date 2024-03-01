@@ -42,6 +42,6 @@ const authors = [
 ];
 // Change code below this line
 
-const ascendingReleaseDates = releaseDates;
+const ascendingReleaseDates = [...releaseDates].sort();
 
-const alphabeticalAuthors = authors;
+const alphabeticalAuthors = [...authors].sort();
