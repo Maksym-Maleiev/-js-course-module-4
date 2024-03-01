@@ -69,7 +69,8 @@ const users = [
 ];
 
 // Change code below this line
-const sortByAscendingBalance = users => {};
+const sortByAscendingBalance = users =>
+  users.sort((firstUser, secondUser) => firstUser.balance - secondUser.balance);
 // Change code above this line
 
 console.log(sortByAscendingBalance(users));
