@@ -60,9 +60,13 @@ const sortedByReversedAuthorName = [...books].sort(
     secondAuthor.author.localeCompare(firstAuthor.author)
 );
 
-const sortedByAscendingRating = books;
+const sortedByAscendingRating = [...books].sort(
+  (firstRating, secondRating) => firstRating.rating - secondRating.rating
+);
 
-const sortedByDescentingRating = books;
+const sortedByDescentingRating = [...books].sort(
+  (firstRating, secondRating) => secondRating.rating - firstRating.rating
+);
 
 console.log(sortedByAuthorName);
 console.log(sortedByReversedAuthorName);
