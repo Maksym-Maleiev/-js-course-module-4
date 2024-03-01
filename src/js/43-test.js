@@ -70,7 +70,7 @@ const users = [
 
 // Change code below this line
 const sortByDescendingFriendCount = users =>
-  users.sort(
+  [...users].sort(
     (firstUser, secondUser) =>
       secondUser.friends.length - firstUser.friends.length
   );
