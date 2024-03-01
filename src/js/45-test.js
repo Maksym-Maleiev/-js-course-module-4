@@ -60,6 +60,7 @@ const names = books
   .filter(book => book.rating > MIN_BOOK_RATING)
   .sort((firstAuthor, secondAuthor) =>
     firstAuthor.author.localeCompare(secondAuthor.author)
-  );
+  )
+  .map(book => book.author);
 
 console.log(names);
