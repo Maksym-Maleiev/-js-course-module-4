@@ -48,11 +48,17 @@ const books = [
   { title: 'Redder Than Blood', author: 'Tanith Lee', rating: 7.94 },
   { title: 'Enemy of God', author: 'Bernard Cornwell', rating: 8.67 },
 ];
+
 // Change code below this line
 
-const sortedByAuthorName = books;
+const sortedByAuthorName = [...books].sort((firstAuthor, secondAuthor) =>
+  firstAuthor.author.localeCompare(secondAuthor.author)
+);
 
-const sortedByReversedAuthorName = books;
+const sortedByReversedAuthorName = [...books].sort(
+  (firstAuthor, secondAuthor) =>
+    secondAuthor.author.localeCompare(firstAuthor.author)
+);
 
 const sortedByAscendingRating = books;
 
