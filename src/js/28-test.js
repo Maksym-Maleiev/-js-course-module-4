@@ -45,8 +45,8 @@ const BOOK_TITLE = 'The Dream of a Ridiculous Man';
 const AUTHOR = 'Robert Sheckley';
 // Change code below this line
 
-const bookWithTitle = books.find(book => book.title === BOOK_TITLE);
-const bookByAuthor = books.find(book => book.author === AUTHOR);
+const bookWithTitle = books.find(({ title }) => title === BOOK_TITLE);
+const bookByAuthor = books.find(({ author }) => author === AUTHOR);
 
 console.log(bookWithTitle);
 console.log(bookByAuthor);
