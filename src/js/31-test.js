@@ -69,7 +69,7 @@ const users = [
 ];
 
 // Change code below this line
-const isEveryUserActive = users => users.every(user => user.isActive);
+const isEveryUserActive = users => users.every(({ isActive }) => isActive);
 // Change code above this line
 
 console.log(isEveryUserActive(users));
