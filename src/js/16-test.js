@@ -31,4 +31,4 @@ const books = [
 
 const genres = books.flatMap(({ genres }) => genres);
 
-console.log(genres);
+console.table(genres);
