@@ -70,7 +70,7 @@ const users = [
 
 // Change code below this line
 const getUserWithEmail = (users, email) =>
-  users.find(({ email }) => email === email);
+  users.find(user => user.email === email);
 // Change code above this line
 
 console.log(getUserWithEmail(users, 'shereeanthony@kog.com'));
