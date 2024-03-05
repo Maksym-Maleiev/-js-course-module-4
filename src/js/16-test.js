@@ -4,10 +4,10 @@ const students = [
   { name: 'Kiwi', courses: ['physics', 'biology'] },
 ];
 
-console.log(students.map(student => student.courses));
+console.table(students.map(student => student.courses));
 // [["mathematics", "physics"], ["science", "mathematics"], ["physics", "biology"]]
 
-console.log(students.flatMap(student => student.courses));
+console.table(students.flatMap(student => student.courses));
 // ["mathematics", "physics", "science", "mathematics", "physics", "biology"];
 
 const books = [
