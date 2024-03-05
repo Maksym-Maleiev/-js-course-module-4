@@ -72,7 +72,8 @@ const users = [
 ];
 
 // Change code below this line
-const getInactiveUsers = users => users.filter(user => user.isActive === false);
+const getInactiveUsers = users =>
+  users.filter(({ isActive }) => isActive === false);
 // Change code above this line
 
 console.log(getInactiveUsers(users));
