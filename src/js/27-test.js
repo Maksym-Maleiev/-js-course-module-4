@@ -76,4 +76,4 @@ const getInactiveUsers = users =>
   users.filter(({ isActive }) => isActive === false);
 // Change code above this line
 
-console.log(getInactiveUsers(users));
+console.table(getInactiveUsers(users));
