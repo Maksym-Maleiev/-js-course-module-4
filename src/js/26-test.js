@@ -73,8 +73,8 @@ const users = [
 
 // Change code below this line
 const getActiveUsers = users => {
-  return users.filter(user => user.isActive === true);
+  return users.filter(({ isActive }) => isActive === true);
 };
 // Change code above this line
 
-console.log(getActiveUsers(users));
+console.table(getActiveUsers(users));
